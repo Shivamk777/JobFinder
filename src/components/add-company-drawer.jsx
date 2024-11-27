@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+
 import {
     Drawer,
     DrawerClose,
@@ -64,17 +64,17 @@ import {
     return (
       <Drawer>
         <DrawerTrigger>
-          <Button type="button" size="sm" variant="secondary">
+         <Button type="button" size="sm" variant="secondary">
             Add Company
           </Button>
         </DrawerTrigger>
         <DrawerContent>
           <DrawerHeader>
-            <DrawerTitle>Add a New Company</DrawerTitle>
+            <DrawerTitle >Add a New Company</DrawerTitle>
           </DrawerHeader>
-          <form className="flex gap-2 p-4 pb-0">
+          <form className="flex gap-2 p-4 text-black pb-0">
             {/* Company Name */}
-            <Input placeholder="Company name" {...register("name")} />
+            <Input placeholder="Company name"  {...register("name")} />
   
             {/* Company Logo */}
             <Input

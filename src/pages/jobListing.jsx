@@ -155,7 +155,7 @@ const JobListing = () => {
               );
             })
           ) : (
-            <div>No Jobs Found 😢</div>
+            <div className="text-black">No Jobs Found </div>
           )}
         </div>
       )}
